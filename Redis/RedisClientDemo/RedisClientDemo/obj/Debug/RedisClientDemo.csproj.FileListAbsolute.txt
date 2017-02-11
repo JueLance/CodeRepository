@@ -1,0 +1,14 @@
+C:\Users\Pisces\Desktop\New folder (2)\RedisClientDemo\RedisClientDemo\bin\Debug\RedisClientDemo.exe.config
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\RedisClientDemo.exe.config
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\RedisClientDemo.exe
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\RedisClientDemo.pdb
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Common.dll
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Redis.dll
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Text.dll
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Common.xml
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Redis.xml
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\bin\Debug\ServiceStack.Text.xml
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\obj\Debug\RedisClientDemo.csprojResolveAssemblyReference.cache
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\obj\Debug\RedisClientDemo.exe
+C:\Users\Pisces\Desktop\Redis\RedisClientDemo\RedisClientDemo\obj\Debug\RedisClientDemo.pdb
