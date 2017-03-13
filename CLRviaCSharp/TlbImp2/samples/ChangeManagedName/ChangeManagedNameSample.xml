@@ -1,0 +1,12 @@
+<Rules>
+  <Rule Name="Rule #1" Category="Type">
+    <Condition>
+      <And>
+        <NativeName Operator="Equal" Value="IComparable" />
+      </And>
+    </Condition>
+    <Action Name="ChangeManagedName">
+      <Parameter Key="NewName" Value="IMyComparable" />
+    </Action>
+  </Rule>
+</Rules>

@@ -1,0 +1,17 @@
+<Rules>
+  <Rule Name="Rule #1" Category="Signature">
+    <Condition>
+      <And>
+        <NativeParentFunctionName Operator="Equal" Value="BinarySearch" />
+        <NativeParameterIndex Operator="Equal" Value="1" />
+      </And>
+    </Condition>
+    <Action Name="ConvertTo">
+      <Parameter Key="Direction" Value="[In]" />
+      <Parameter Key="ByRef" Value="False" />
+      <Parameter Key="ManagedType" Value="LPArray" />
+      <Parameter Key="MarshalAs" Value="(default)" />
+      <Parameter Key="Attributes" Value="[SizeParamIndex=1]" />
+    </Action>
+  </Rule>
+</Rules>

@@ -1,0 +1,29 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+    uuid(113B0D9E-05AB-41F9-9715-F7747F191330),
+    version(1.0),
+    helpstring("FirstATL 1.0 Type Library")
+]
+library IEnumVARIANT
+{
+    [
+        uuid(18CB9C10-86F8-4639-B86B-7D15C9114866),
+        helpstring("IFirstATLObject Interface"),
+        pointer_default(unique)
+    ]
+    interface IFirstATLObject : IUnknown{
+        HRESULT EnumeratorParameter([in] IEnumVARIANT * en);
+    };
+
+    importlib("stdole2.tlb");
+    [
+        uuid(E9FF0DC6-7F94-4CF3-B0A5-99F1B6259421),
+        helpstring("FirstATLObject Class")
+    ]
+    coclass FirstATLObject
+    {
+        [default] interface IFirstATLObject;
+    };
+};

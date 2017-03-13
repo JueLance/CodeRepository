@@ -1,0 +1,18 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+  uuid(4615CDF1-B6B7-11D0-BB8E-00A0C90F2744),
+  version(6.0),
+]
+library PreserveSigSample
+{
+    [
+        uuid(18CE9E10-86F8-4639-B86B-7D15C9114866),
+        pointer_default(unique)
+    ]
+    interface IPreserveSigSample : IUnknown{
+        HRESULT FunctionNoThrow([in] int p, [out, retval] VARIANT_BOOL *ret);
+        HRESULT FunctionThrow([in] int p, [out, retval] VARIANT_BOOL *ret);
+    };
+}
