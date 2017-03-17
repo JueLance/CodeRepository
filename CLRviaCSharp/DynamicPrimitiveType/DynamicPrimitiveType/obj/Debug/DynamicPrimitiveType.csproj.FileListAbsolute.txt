@@ -1,0 +1,6 @@
+C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\DynamicPrimitiveType.exe.config
+C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\DynamicPrimitiveType.exe
+C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\DynamicPrimitiveType.pdb
+C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.csprojResolveAssemblyReference.cache
+C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.exe
+C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.pdb
