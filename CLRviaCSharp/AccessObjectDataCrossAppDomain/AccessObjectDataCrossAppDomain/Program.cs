@@ -13,9 +13,9 @@ namespace AccessObjectDataCrossAppDomain
     {
         static void Main(string[] args)
         {
-            //Marshalling_Demo1();
+            Marshalling_Demo1();
 
-            Marshalling_Demo2();
+            //Marshalling_Demo2();
 
             //Marshalling_Demo3();
         }
@@ -23,7 +23,7 @@ namespace AccessObjectDataCrossAppDomain
         private static void Marshalling_Demo1()
         {
             AppDomain adCallingThreadDomain = Thread.GetDomain();
-            String callingDomainName = adCallingThreadDomain.FriendlyName;
+            String callingDomainName = adCallingThreadDomain.FriendlyName;//默认的名字就是程序集的名字
             Console.WriteLine("Default AppDomain's friendly name={0}", callingDomainName);
 
             string exeAssembly = Assembly.GetEntryAssembly().FullName;
@@ -35,14 +35,27 @@ namespace AccessObjectDataCrossAppDomain
             Console.WriteLine("{0}Demo #1", Environment.NewLine);
 
             //新建一个AppDomain(安全和配置匹配与当前AppDomain)
+            //CreateDomain:在内部，此方法会在进程中创建一个新AppDomain，该AppDomain
+            //将被赋予指定的友好名称、安全性和配置设置。新AppDomain有它自己的Loader堆，
+            //这个堆目前是空的，因为此时还没有程序集加载到新AppDomain中。
+            //创建AppDomain时，CLR不在这个AppDomain中创建任何线程；AppDomain中也没有代码运行，
+            //除非你显式地让一个线程调用AppDomain中的代码。
             ad2 = AppDomain.CreateDomain("AD #2", null, null);
 
             MarshalByRefType mbrt = null;
 
-            //将我们的程序集加载到新AppDomain中，构造一个对象，把它封送回我们的AppDomain(实际得到对一个代理的引用)
+            //为了在新AppDomain中创建一个类型的实例，首先必须将一个程序集加载到这个新AppDomain中，
+            //然后构造这个程序集中定义的一个类型的实例。这就是CreateInstanceAndUnwrap方法所做的事情。
+
+            //在这里，将我们将程序集加载到新AppDomain中，构造一个对象，把它封送回我们的AppDomain(实际得到对一个代理的引用)
             mbrt = (MarshalByRefType)ad2.CreateInstanceAndUnwrap(exeAssembly, "AccessObjectDataCrossAppDomain.MarshalByRefType");
 
             Console.WriteLine("Type={0}", mbrt.GetType());
+            //输出：Type=AccessObjectDataCrossAppDomain.MarshalByRefType
+            //CLR一般不允许将一个类型的对象转换成一个不兼容的类型。但在当前的情况下CLR允许进行转型。因为
+            //新类型具有和原始类型一样的实例成员。
+            //在这里，CLR其实撒了一个谎，mbrt.GetType()说自己是AccessObjectDataCrossAppDomain.MarshalByRefType。
+            //但下面的代码说明mbrt其实是一个代理类，并非是当前AppDomain中MarshalByRefType的实例
 
             //证明得到的是一个代理对象的引用
             Console.WriteLine("Is proxy={0}", RemotingServices.IsTransparentProxy(mbrt));
@@ -52,8 +65,10 @@ namespace AccessObjectDataCrossAppDomain
             mbrt.SomeMethod();
 
             AppDomain.Unload(ad2);
+            //调用Unload方法，会强制CLR卸载指定的AppDomain（包括加载到其中的所有程序集，所有的Loader堆），并
+            //强制执行一次垃圾回收，以释放由卸载的AppDomain中的代码创建的所有对象。
 
-            //卸载新的AppDomain后，mbrt引用一个有效的代理对象；代理对象引用一个无效的AppDomain
+            //卸载新的AppDomain后，mbrt引用一个有效的代理对象；代理对象却已不再引用一个有效的AppDomain。
 
             try
             {

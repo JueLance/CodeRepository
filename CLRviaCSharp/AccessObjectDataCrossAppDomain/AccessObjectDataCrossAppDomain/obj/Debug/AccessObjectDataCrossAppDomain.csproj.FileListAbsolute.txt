@@ -7,3 +7,9 @@ C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDoma
 C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\System.Net.Http.dll
 C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\System.Net.Http.xml
 C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+D:\WorkSpace\github\CodeRepository\CLRviaCSharp\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\AccessObjectDataCrossAppDomain.exe.config
+D:\WorkSpace\github\CodeRepository\CLRviaCSharp\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\AccessObjectDataCrossAppDomain.exe
+D:\WorkSpace\github\CodeRepository\CLRviaCSharp\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\AccessObjectDataCrossAppDomain.pdb
+D:\WorkSpace\github\CodeRepository\CLRviaCSharp\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\obj\Debug\AccessObjectDataCrossAppDomain.csprojResolveAssemblyReference.cache
+D:\WorkSpace\github\CodeRepository\CLRviaCSharp\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\obj\Debug\AccessObjectDataCrossAppDomain.exe
+D:\WorkSpace\github\CodeRepository\CLRviaCSharp\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\obj\Debug\AccessObjectDataCrossAppDomain.pdb
