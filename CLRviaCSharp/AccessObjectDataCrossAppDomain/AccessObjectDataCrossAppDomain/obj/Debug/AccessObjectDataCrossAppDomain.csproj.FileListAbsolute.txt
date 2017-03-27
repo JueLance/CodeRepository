@@ -1,0 +1,9 @@
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\AccessObjectDataCrossAppDomain.exe.config
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\AccessObjectDataCrossAppDomain.exe
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\AccessObjectDataCrossAppDomain.pdb
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\obj\Debug\AccessObjectDataCrossAppDomain.csprojResolveAssemblyReference.cache
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\obj\Debug\AccessObjectDataCrossAppDomain.exe
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\obj\Debug\AccessObjectDataCrossAppDomain.pdb
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\System.Net.Http.dll
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\System.Net.Http.xml
+C:\Users\len\Desktop\AccessObjectDataCrossAppDomain\AccessObjectDataCrossAppDomain\bin\Debug\zh-Hans\System.Net.Http.resources.dll
