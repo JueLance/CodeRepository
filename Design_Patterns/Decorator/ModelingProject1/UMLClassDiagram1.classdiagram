@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="02086440-2b6d-476a-9874-d464015650b4" name="UMLClassDiagram1" linkedPackageId="4d127ee6-49d5-4922-9e9e-4f17ae96aafa" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="d85f3834-556e-4894-b7be-c251fd9f6a03">
+      <elementDefinition Id="731321ca-f9dc-42dc-a4e9-788e80af8903" />
+      <body>ConcreteDecorator就是具体的装饰对象，起到给Component添加职责的功能</body>
+      <annotatedElements>
+        <classMoniker Id="6cdb6a6f-e26e-40cc-a76c-ea90c35e672c" LastKnownName="ConcreteDecoratorB" />
+        <classMoniker Id="ec34b568-cd60-42fd-b8b6-eb865412e503" LastKnownName="ConcreteDecoratorA" />
+      </annotatedElements>
+    </comment>
+    <comment Id="ff21e08c-5cbc-4d52-bbc4-347be6796c55">
+      <elementDefinition Id="3b9c5e79-ff93-42a3-b93d-bd4d49ecf0e2" />
+      <body>ConcreteComponent是定义了一个具体的对象，也可以给这个对象添加一些职责</body>
+      <annotatedElements>
+        <classMoniker Id="6065ef2c-f4f5-47e2-80cd-0792a05d20d9" LastKnownName="ConcreteComponent" />
+      </annotatedElements>
+    </comment>
+    <comment Id="07f25fa5-9c0f-421b-be1a-a98547e46217">
+      <elementDefinition Id="67caae54-a131-4b72-9879-bfeba7291e76" />
+      <body>Component是定义一个对象接口，可以给这些对象动态地添加职责</body>
+      <annotatedElements>
+        <classMoniker Id="0ac8a3f2-a46e-47a8-b488-593328f35217" LastKnownName="Component" />
+      </annotatedElements>
+    </comment>
+    <comment Id="701b2521-c696-40bd-8a06-69467c5015f3">
+      <elementDefinition Id="9f19d35d-3e2a-4efd-b724-573b429e79a7" />
+      <body>Decorator，装饰抽象类，继承了Component，从外类来拓展Component类的功能，但对于Component来说，是无需知道Decorator存在的</body>
+      <annotatedElements>
+        <classMoniker Id="aa698843-0f16-4d86-a56e-510dd5dfca04" LastKnownName="Decorator" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0ac8a3f2-a46e-47a8-b488-593328f35217" name="Component" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0fbfc520-c224-496d-934b-8f0d8b410447" />
+        <ownedOperationsInternal>
+          <operation Id="f04ea512-2ca8-4bae-8d45-c579fbb7efb5" name="Operation" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b9538be5-43e5-4b32-b2c7-16c809fac165" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="22dc2c64-b3d6-47b7-9d3b-9e11a0d7d8ea" direction="Return">
+                  <elementDefinition Id="e1c80838-1fdb-4137-aa3e-628dc7381f28" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2d825e33-e307-44be-ab1e-a2f42ae6e09f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6065ef2c-f4f5-47e2-80cd-0792a05d20d9" name="ConcreteComponent" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0647f552-46b4-4810-bc07-e088c69ce4e1" />
+        <generalsInternal>
+          <generalization Id="22b6d2b2-5fb4-4128-9b67-18b485a3c295" isSubstitutable="false">
+            <classMoniker Id="0ac8a3f2-a46e-47a8-b488-593328f35217" LastKnownName="Component" />
+            <elementDefinition Id="f0804850-6f38-44ec-89ed-645a1a3f61c5" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="b6730bd8-c0c7-46d7-b16c-e5949cfd354f" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="49598944-cc84-4bec-ba25-1b14280f0ae6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9da4b688-4bd2-4d91-8140-65fb9e3c908e" direction="Return">
+                  <elementDefinition Id="24b8ea43-4eae-4882-8653-1c8531ce4b4a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2d825e33-e307-44be-ab1e-a2f42ae6e09f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="aa698843-0f16-4d86-a56e-510dd5dfca04" name="Decorator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e84250f8-a212-47af-bafe-bf2792f44daf" />
+        <generalsInternal>
+          <generalization Id="9705b69c-7edb-429f-8b81-6b9424e8ce5c" isSubstitutable="false">
+            <classMoniker Id="0ac8a3f2-a46e-47a8-b488-593328f35217" LastKnownName="Component" />
+            <elementDefinition Id="536e7af4-ad26-4c4f-8348-c6b3f2d5b855" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="f34d6a9b-f760-4693-8c00-25c86b31cd35" isDerived="false" sourceEndRoleName="Decorator" targetEndRoleName="Component" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0ac8a3f2-a46e-47a8-b488-593328f35217" LastKnownName="Component" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8af95dfc-1de9-4036-a2d5-2d03f293cec0" name="Decorator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d84debe6-7d03-4a76-af16-a9db6ca2bf5e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="081c9712-4b59-4228-a0f7-c02d0b11d9c8" name="Component" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9ef758ec-435a-4dba-986d-bf4d303e1d7f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ae9df50e-178d-408d-b039-aad6cc53301c" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="879f8af1-4b31-422b-81f1-3e5511633c31" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="65854c71-5c36-475b-a4e2-8f2fd3513e6b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="47f3754d-6bda-4cc4-9859-c9ac2922f20f" direction="Return">
+                  <elementDefinition Id="4473f1f8-8697-40b8-ab32-a80eee6be449" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2d825e33-e307-44be-ab1e-a2f42ae6e09f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ec34b568-cd60-42fd-b8b6-eb865412e503" name="ConcreteDecoratorA" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c037e420-56e0-4f65-ae3a-974f17464439" />
+        <generalsInternal>
+          <generalization Id="1cb1e627-72a7-42a2-9524-6502d9fe57ed" isSubstitutable="false">
+            <classMoniker Id="aa698843-0f16-4d86-a56e-510dd5dfca04" LastKnownName="Decorator" />
+            <elementDefinition Id="dde6e0e4-e335-4a5d-a0e8-b2c0310e39dc" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="4bc5289b-46f8-4f6f-b5d8-25a2b22608bd" name="AddedState" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="98b8c91f-4122-43c9-b79a-8bca00682760" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="2e8c724d-e763-400a-8969-87abb234420c" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a3ac6631-145c-476e-b1ac-a998ed987fb2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1e64aa74-a762-4ec4-b2ea-aa397c7c2fd9" direction="Return">
+                  <elementDefinition Id="999b065e-0fd4-4407-8aac-421774ef5033" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2d825e33-e307-44be-ab1e-a2f42ae6e09f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6cdb6a6f-e26e-40cc-a76c-ea90c35e672c" name="ConcreteDecoratorB" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9d30a78b-e42f-408c-858b-9263102129c8" />
+        <generalsInternal>
+          <generalization Id="4746e8a0-66a6-48fa-a03b-8f4f6986a692" isSubstitutable="false">
+            <classMoniker Id="aa698843-0f16-4d86-a56e-510dd5dfca04" LastKnownName="Decorator" />
+            <elementDefinition Id="9c805fb9-1ce4-45a0-b672-cd762571f32b" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="a615ea01-c6cb-4d60-890a-888973e0771a" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8c75f2c5-93b4-4762-8429-e1a438cf63c5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c2cce33b-4353-47a0-ae5f-c189c3777725" direction="Return">
+                  <elementDefinition Id="baf3fb59-4519-4470-8f3a-52bde1661e63" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2d825e33-e307-44be-ab1e-a2f42ae6e09f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bc4da644-af05-4133-a9e3-4c4e2bae3cd2" name="AddedBehavior" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="06d87e1b-11ed-4f1e-840d-97ac210c476f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="2d825e33-e307-44be-ab1e-a2f42ae6e09f" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="a7ea84a5-14c2-4b65-bf06-462da6a23c47" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="4d127ee6-49d5-4922-9e9e-4f17ae96aafa" name="ModelingProject1">
+    <elementDefinition Id="692570a1-ae59-4337-8485-2f9bb5296135" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8ea75e6b-fa39-4af6-90aa-a426485f452b">
+        <profileInstance Id="a78ed917-fb1a-4261-8645-6d4a1634cce5" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="fe05720e-01c3-4b10-b9ab-6fd3a2a4d0ab">
+        <profileInstance Id="c3a10ee7-22a9-4702-bb0d-a5ea9dfd077f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

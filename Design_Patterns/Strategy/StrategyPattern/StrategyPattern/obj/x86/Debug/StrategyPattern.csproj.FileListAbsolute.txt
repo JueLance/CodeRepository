@@ -1,0 +1,6 @@
+C:\Users\zhuzi\Desktop\StrategyPattern\StrategyPattern\bin\Debug\StrategyPattern.exe
+C:\Users\zhuzi\Desktop\StrategyPattern\StrategyPattern\bin\Debug\StrategyPattern.pdb
+C:\Users\zhuzi\Desktop\StrategyPattern\StrategyPattern\obj\x86\Debug\StrategyPattern.exe
+C:\Users\zhuzi\Desktop\StrategyPattern\StrategyPattern\obj\x86\Debug\StrategyPattern.pdb
+D:\WorkSpace\SVN\branches\Design Patterns\Strategy\StrategyPattern\StrategyPattern\obj\x86\Debug\StrategyPattern.exe
+D:\WorkSpace\SVN\branches\Design Patterns\Strategy\StrategyPattern\StrategyPattern\obj\x86\Debug\StrategyPattern.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuilderPattern.BuildDirector">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>BuildDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.FatPerson">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgEAAAAAAAQAAAAAAIAAAAAkQA=</HashCode>
+      <FileName>FatPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.PersonBuilder">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAEAAAAAAAQAAAAAAIAAAAAkAA=</HashCode>
+      <FileName>PersonBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.ThinPerson">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAEABAAAAAQAAAAAAIAAAAAkAA=</HashCode>
+      <FileName>ThinPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

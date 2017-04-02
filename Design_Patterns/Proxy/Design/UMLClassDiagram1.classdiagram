@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="6f812984-6171-48d0-bf9d-71dc0ee33fb2" name="UMLClassDiagram1" linkedPackageId="dfc8b3b1-529f-4c90-8646-c8f27e3bb7c9" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="cdeb226b-a7a5-40d4-a0de-635a9f68daa3">
+      <profileInstance Id="e0e176b1-c096-4ed1-898a-011cc9352437" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f1659a6c-da4b-47d2-869a-fd7408a5e613">
+      <profileInstance Id="b2f0af54-a5ca-4682-b817-ade571ce7f1a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="2f3aabe5-8c9f-407f-8cb7-f432e16fd839" name="GiveGift" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="98b015e2-7d8d-4346-bdbd-f4ca2eaa8e68" />
+        <ownedOperations>
+          <operation Id="5fc142e7-64cc-41c2-a036-ff3936635a76" name="GiveDolls" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e527cd6c-204a-4538-8d48-2ff221bbcbc0" />
+          </operation>
+          <operation Id="06acb0c5-ebec-4418-9d66-af1325c9f76f" name="GiveFlowers" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6d1bb419-261b-431a-ab5d-d88256345ed3" />
+          </operation>
+          <operation Id="a72dc0da-a7e2-4abd-a285-0c3c09c3101e" name="GiveChocolate" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="931daab4-c6b7-4098-a6a3-8149cee3a1ee" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="36fec058-aac5-4619-a799-c47ccf5c67f3" name="Pursuit" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="041ea97b-5aa4-437a-9179-bc7637a9c048" />
+        <suppliersInternal>
+          <interfaceRealization Id="7b6b8f8b-d4fb-438f-a58a-bbcffab93e29">
+            <interfaceMoniker Id="2f3aabe5-8c9f-407f-8cb7-f432e16fd839" LastKnownName="GiveGift" />
+            <elementDefinition Id="c1a9b8c9-7bfb-45a2-9851-542afae979a8" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="d693ef7c-afe7-44a0-a6f3-c16fee99a934" name="GiveDolls" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="25a78b4e-6f61-47c2-99f6-f9c67c595072" />
+          </operation>
+          <operation Id="7c429f20-2632-48cc-b0b3-bc057ea6e458" name="GiveFlowers" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6af7524b-db26-4bc7-86e4-50e9634da6a7" />
+          </operation>
+          <operation Id="a79cdac3-a123-48b1-93f7-c25fbb95641a" name="GiveChocolate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="dde688b9-a8ec-4a20-ae0a-bfb16dbad54e" />
+          </operation>
+          <operation Id="15d4fa6d-266a-425a-9031-003f3c923c0b" name="Pursuit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bfca6ce3-9f22-4ad4-a669-545454b3da8a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9cf2ff5a-376c-4863-9d19-200d2bfbfd61" name="Proxy" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0cd150fe-40dc-4e4d-b40c-4fe7b955d14e" />
+        <suppliersInternal>
+          <interfaceRealization Id="012ca362-890d-4a93-b8d3-d9f8b74787cd">
+            <interfaceMoniker Id="2f3aabe5-8c9f-407f-8cb7-f432e16fd839" LastKnownName="GiveGift" />
+            <elementDefinition Id="6fde2a51-b580-42b1-9d8f-4f9541a8b68f" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="9d6b3e45-c388-47a1-a1b2-133e88d966e5" name="GiveDolls" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9c1d23ca-af2b-4f17-aa3b-69853b4b8943" />
+          </operation>
+          <operation Id="bc21b69c-fa42-4e4e-bf61-e21e1d1945e2" name="GiveFlowers" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bf7beb35-ebe3-4eef-97c8-a96b46173777" />
+          </operation>
+          <operation Id="bb692622-bfd0-4c16-9f33-797cd3607be7" name="GiveChocolate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="04fd52f7-20d9-4f7b-9443-abeeeaff29b1" />
+          </operation>
+          <operation Id="7f347d29-43cf-4ba8-88a5-5a5137aa16ff" name="Proxy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="920b533e-0416-4cee-ba05-258c2e6baa81" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="dfc8b3b1-529f-4c90-8646-c8f27e3bb7c9" name="Design">
+    <elementDefinition Id="a4314706-3866-4833-8864-576f3b387f27" />
+  </package>
+</logicalClassDesignerModel>

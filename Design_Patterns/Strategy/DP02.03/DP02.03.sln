@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP02.03", "DP02.03\DP02.03.csproj", "{ABE323D7-28AA-4186-A134-9443D87A7D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP02.03.Core", "DP02.03.Core\DP02.03.Core.csproj", "{7880551C-3466-45C9-B04A-8D47725ECC5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE323D7-28AA-4186-A134-9443D87A7D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE323D7-28AA-4186-A134-9443D87A7D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE323D7-28AA-4186-A134-9443D87A7D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE323D7-28AA-4186-A134-9443D87A7D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7880551C-3466-45C9-B04A-8D47725ECC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7880551C-3466-45C9-B04A-8D47725ECC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7880551C-3466-45C9-B04A-8D47725ECC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7880551C-3466-45C9-B04A-8D47725ECC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
