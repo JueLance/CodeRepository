@@ -1,0 +1,6 @@
+C:\Users\Pisces\Desktop\Thread\ThreadApplication\ThreadApplication\bin\Debug\ThreadApplication.exe.config
+C:\Users\Pisces\Desktop\Thread\ThreadApplication\ThreadApplication\bin\Debug\ThreadApplication.exe
+C:\Users\Pisces\Desktop\Thread\ThreadApplication\ThreadApplication\bin\Debug\ThreadApplication.pdb
+C:\Users\Pisces\Desktop\Thread\ThreadApplication\ThreadApplication\obj\Debug\ThreadApplication.csprojResolveAssemblyReference.cache
+C:\Users\Pisces\Desktop\Thread\ThreadApplication\ThreadApplication\obj\Debug\ThreadApplication.exe
+C:\Users\Pisces\Desktop\Thread\ThreadApplication\ThreadApplication\obj\Debug\ThreadApplication.pdb
