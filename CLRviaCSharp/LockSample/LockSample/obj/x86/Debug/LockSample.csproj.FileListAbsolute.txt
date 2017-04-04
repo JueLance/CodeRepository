@@ -1,0 +1,9 @@
+D:\WorkSpace\git\LockSample\LockSample\bin\Debug\LockSample.exe
+D:\WorkSpace\git\LockSample\LockSample\bin\Debug\LockSample.pdb
+D:\WorkSpace\git\LockSample\LockSample\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WorkSpace\git\LockSample\LockSample\obj\x86\Debug\LockSample.exe
+D:\WorkSpace\git\LockSample\LockSample\obj\x86\Debug\LockSample.pdb
+D:\WorkSpace\CodeRepository\CLRviaCSharp\LockSample\LockSample\obj\x86\Debug\LockSample.exe
+D:\WorkSpace\CodeRepository\CLRviaCSharp\LockSample\LockSample\obj\x86\Debug\LockSample.pdb
+D:\WorkSpace\git\CodeRepository\CLRviaCSharp\LockSample\LockSample\obj\x86\Debug\LockSample.exe
+D:\WorkSpace\git\CodeRepository\CLRviaCSharp\LockSample\LockSample\obj\x86\Debug\LockSample.pdb
