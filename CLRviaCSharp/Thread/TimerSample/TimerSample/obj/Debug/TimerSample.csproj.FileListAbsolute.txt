@@ -1,0 +1,6 @@
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\Thread\TimerSample\TimerSample\bin\Debug\TimerSample.exe.config
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\Thread\TimerSample\TimerSample\bin\Debug\TimerSample.exe
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\Thread\TimerSample\TimerSample\bin\Debug\TimerSample.pdb
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\Thread\TimerSample\TimerSample\obj\Debug\TimerSample.csprojResolveAssemblyReference.cache
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\Thread\TimerSample\TimerSample\obj\Debug\TimerSample.exe
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\Thread\TimerSample\TimerSample\obj\Debug\TimerSample.pdb
