@@ -1,0 +1,6 @@
+C:\Users\len\Desktop\PLinqSample\PLinqSample\bin\Debug\PLinqSample.exe.config
+C:\Users\len\Desktop\PLinqSample\PLinqSample\bin\Debug\PLinqSample.exe
+C:\Users\len\Desktop\PLinqSample\PLinqSample\bin\Debug\PLinqSample.pdb
+C:\Users\len\Desktop\PLinqSample\PLinqSample\obj\Debug\PLinqSample.csprojResolveAssemblyReference.cache
+C:\Users\len\Desktop\PLinqSample\PLinqSample\obj\Debug\PLinqSample.exe
+C:\Users\len\Desktop\PLinqSample\PLinqSample\obj\Debug\PLinqSample.pdb
