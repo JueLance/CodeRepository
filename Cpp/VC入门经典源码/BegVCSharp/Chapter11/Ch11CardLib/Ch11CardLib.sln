@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11CardLib", "Ch11CardLib.csproj", "{CE33E68D-19CB-4F28-B454-F6602778BD20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11CardClient", "..\Ch11CardClient\Ch11CardClient.csproj", "{CB8C6673-3846-4148-8CF7-E9C58DCE4C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CE33E68D-19CB-4F28-B454-F6602778BD20}.Debug.ActiveCfg = Debug|.NET
+		{CE33E68D-19CB-4F28-B454-F6602778BD20}.Debug.Build.0 = Debug|.NET
+		{CE33E68D-19CB-4F28-B454-F6602778BD20}.Release.ActiveCfg = Release|.NET
+		{CE33E68D-19CB-4F28-B454-F6602778BD20}.Release.Build.0 = Release|.NET
+		{CB8C6673-3846-4148-8CF7-E9C58DCE4C11}.Debug.ActiveCfg = Debug|.NET
+		{CB8C6673-3846-4148-8CF7-E9C58DCE4C11}.Debug.Build.0 = Debug|.NET
+		{CB8C6673-3846-4148-8CF7-E9C58DCE4C11}.Release.ActiveCfg = Release|.NET
+		{CB8C6673-3846-4148-8CF7-E9C58DCE4C11}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

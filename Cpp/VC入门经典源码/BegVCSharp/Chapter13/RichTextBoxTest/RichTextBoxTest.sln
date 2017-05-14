@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTextBoxTest", "RichTextBoxTest.csproj", "{F9521923-A82F-4DDB-AC6A-AA93E5D1C616}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F9521923-A82F-4DDB-AC6A-AA93E5D1C616}.Debug.ActiveCfg = Debug|.NET
+		{F9521923-A82F-4DDB-AC6A-AA93E5D1C616}.Debug.Build.0 = Debug|.NET
+		{F9521923-A82F-4DDB-AC6A-AA93E5D1C616}.Release.ActiveCfg = Release|.NET
+		{F9521923-A82F-4DDB-AC6A-AA93E5D1C616}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

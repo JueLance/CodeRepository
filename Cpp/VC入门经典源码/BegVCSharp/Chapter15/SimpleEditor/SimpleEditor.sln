@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEditor", "SimpleEditor.csproj", "{C68B2892-6578-4A72-9E41-02FFBEF8D72C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSimpleEditor", "..\SetupSimpleEditor\SetupSimpleEditor.vdproj", "{787AB3EE-0881-4B2B-8998-9128BE33A9F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C68B2892-6578-4A72-9E41-02FFBEF8D72C}.Debug.ActiveCfg = Debug|.NET
+		{C68B2892-6578-4A72-9E41-02FFBEF8D72C}.Debug.Build.0 = Debug|.NET
+		{C68B2892-6578-4A72-9E41-02FFBEF8D72C}.Release.ActiveCfg = Release|.NET
+		{C68B2892-6578-4A72-9E41-02FFBEF8D72C}.Release.Build.0 = Release|.NET
+		{787AB3EE-0881-4B2B-8998-9128BE33A9F5}.Debug.ActiveCfg = Debug
+		{787AB3EE-0881-4B2B-8998-9128BE33A9F5}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
