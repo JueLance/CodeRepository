@@ -1,0 +1,6 @@
+C:\Users\Rocky\Desktop\StaticClass\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Rocky\Desktop\StaticClass\bin\Debug\ConsoleApplication1.exe
+C:\Users\Rocky\Desktop\StaticClass\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Rocky\Desktop\StaticClass\obj\Debug\StaticClass.csprojResolveAssemblyReference.cache
+C:\Users\Rocky\Desktop\StaticClass\obj\Debug\ConsoleApplication1.exe
+C:\Users\Rocky\Desktop\StaticClass\obj\Debug\ConsoleApplication1.pdb
