@@ -1,0 +1,8 @@
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.exe
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.pdb
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\bin\Debug\EventEmail.exe
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\bin\Debug\EventEmail.pdb
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.Form1.resources
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.Properties.Resources.resources
+C:\Documents and Settings\陈杰\桌面\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.csproj.GenerateResource.Cache

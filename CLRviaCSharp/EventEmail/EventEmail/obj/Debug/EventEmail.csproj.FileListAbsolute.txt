@@ -1,0 +1,46 @@
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\bin\Debug\EventEmail.exe
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\bin\Debug\EventEmail.pdb
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.Form1.resources
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.Properties.Resources.resources
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.csproj.GenerateResource.Cache
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.exe
+E:\MyDocument\C#基本语法\Delegate.Event.Thread\EventEmail\obj\Debug\EventEmail.pdb
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\bin\Debug\EventEmail.exe
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\bin\Debug\EventEmail.pdb
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\ResolveAssemblyReference.cache
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\EventEmail.Form1.resources
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\EventEmail.Properties.Resources.resources
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\EventEmail.exe
+D:\Develop\C#\C#基本知识\C# 1.0\15 委托\DelegateSample\EventEmail\obj\Debug\EventEmail.pdb
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\EventEmail.exe
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\EventEmail.pdb
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\bin\Debug\EventEmail.exe
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\bin\Debug\EventEmail.pdb
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\ResolveAssemblyReference.cache
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\EventEmail.Form1.resources
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\EventEmail.Properties.Resources.resources
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Develop\C#\C#基本知识\DelegateSample\EventEmail\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Develop\C#\Source\DelegateSample\EventEmail\obj\Debug\EventEmail.exe
+D:\Develop\C#\Source\DelegateSample\EventEmail\obj\Debug\EventEmail.pdb
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\EventEmail.exe
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\EventEmail.pdb
+D:\新建文件夹\DelegateSample\EventEmail\bin\Debug\EventEmail.exe
+D:\新建文件夹\DelegateSample\EventEmail\bin\Debug\EventEmail.pdb
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\ResolveAssemblyReference.cache
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\EventEmail.Form1.resources
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\EventEmail.Form2.resources
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\EventEmail.Properties.Resources.resources
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\GenerateResource.read.1.tlog
+D:\新建文件夹\DelegateSample\EventEmail\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\obj\Debug\EventEmail.exe
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\obj\Debug\EventEmail.pdb
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\obj\Debug\EventEmail.Form1.resources
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\obj\Debug\EventEmail.Properties.Resources.resources
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\obj\Debug\EventEmail.csproj.GenerateResource.Cache
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\bin\Debug\EventEmail.exe
+D:\WorkSpace\DropBox\New folder\DelegateSample\EventEmail\bin\Debug\EventEmail.pdb

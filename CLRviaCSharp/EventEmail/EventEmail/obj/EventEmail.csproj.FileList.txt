@@ -1,0 +1,8 @@
+bin\Debug\EventEmail.exe
+bin\Debug\EventEmail.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EventEmail.Properties.Resources.resources
+obj\Debug\EventEmail.csproj.GenerateResource.Cache
+obj\Debug\EventEmail.exe
+obj\Debug\EventEmail.pdb
+obj\Debug\EventEmail.Form1.resources
