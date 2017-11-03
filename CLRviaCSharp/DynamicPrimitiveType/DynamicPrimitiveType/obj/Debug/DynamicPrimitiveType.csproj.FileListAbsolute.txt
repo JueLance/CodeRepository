@@ -4,3 +4,9 @@ C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\Dynamic
 C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.csprojResolveAssemblyReference.cache
 C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.exe
 C:\Users\len\Desktop\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.pdb
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\DynamicPrimitiveType.exe.config
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\DynamicPrimitiveType.exe
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\DynamicPrimitiveType\DynamicPrimitiveType\bin\Debug\DynamicPrimitiveType.pdb
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.csprojResolveAssemblyReference.cache
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.exe
+D:\WorkSpace\gitcode\github\CodeRepository\CLRviaCSharp\DynamicPrimitiveType\DynamicPrimitiveType\obj\Debug\DynamicPrimitiveType.pdb
