@@ -1,3 +1,5 @@
+package cn.rocky;
+
 public class UserInfo {
 
 
