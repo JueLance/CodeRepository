@@ -12,6 +12,7 @@ public class HelloServiceProxy implements InvocationHandler {
     public Object bind(Object target) {
 
         this.realObj = target;
+		//创建代理对象
         return Proxy.newProxyInstance(realObj.getClass().getClassLoader(), realObj.getClass().getInterfaces(), this);
     }
 
