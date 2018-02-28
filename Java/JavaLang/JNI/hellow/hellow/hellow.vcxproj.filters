@@ -21,9 +21,21 @@
     <ClCompile Include="TestJni.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cn_rocky_NativeMethodTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cn_rocky_TestJni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestJni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cn_rocky_NativeMethodTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cn_rocky_TestJni.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
