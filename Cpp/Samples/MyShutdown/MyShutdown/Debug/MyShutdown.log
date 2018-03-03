@@ -1,9 +1,0 @@
-﻿  Source.cpp
-c:\users\rocky\desktop\myshutdown\myshutdown\source.cpp(29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\users\rocky\desktop\myshutdown\myshutdown\source.cpp(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\users\rocky\desktop\myshutdown\myshutdown\source.cpp(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
-  MyShutdown.vcxproj -> C:\Users\Rocky\Desktop\MyShutdown\Debug\MyShutdown.exe
-  MyShutdown.vcxproj -> C:\Users\Rocky\Desktop\MyShutdown\Debug\MyShutdown.pdb (Partial PDB)
