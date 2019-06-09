@@ -1,9 +1,0 @@
-﻿  Main.cpp
-d:\workspace\svn\branches\language\cpp\win32\test\main.cpp(152): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstdio.h(1446): note: see declaration of '_swprintf'
-d:\workspace\svn\branches\language\cpp\win32\test\main.cpp(295): warning C4065: switch statement contains 'default' but no 'case' labels
-d:\workspace\svn\branches\language\cpp\win32\test\main.cpp(265): warning C4101: 'hMenu': unreferenced local variable
-  FileDlg.cpp
-  Generating Code...
-  WindowSample.vcxproj -> C:\Users\Rocky\Desktop\WindowSample\Debug\WindowSample.exe
-  WindowSample.vcxproj -> C:\Users\Rocky\Desktop\WindowSample\Debug\WindowSample.pdb (Partial PDB)
