@@ -38,7 +38,7 @@ namespace ChainOfResponsibility
     //        return 0;
     //    }
     //}
-    
+
     //目的：代码演示（消除if）
     class Program
     {
@@ -47,9 +47,10 @@ namespace ChainOfResponsibility
             ParameterObject obj = new ParameterObject();
 
             BusinessLogicValidator businessLogicValidator = new BusinessLogicValidator();
+            //businessLogicValidator.NextValidator=null; //指定验证器的下一个验证器
 
             ParameterValidator parameterValidator = new ParameterValidator();
-            parameterValidator.NextValidator = businessLogicValidator;
+            parameterValidator.NextValidator = businessLogicValidator;//指定参数验证之后进行业务逻辑验证。
             parameterValidator.Validate(obj);
         }
     }
