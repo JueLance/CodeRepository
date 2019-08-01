@@ -10,7 +10,7 @@ namespace Bridge
 
         public override void Operation()
         {
-            Console.WriteLine("具体实现A的方法被执行");
+            Console.WriteLine("具体实现B的方法被执行");
         }
     }
 }
