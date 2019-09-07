@@ -13,7 +13,7 @@ namespace DecoratorCore
         {
             base.Operation();
             addedState = "New State";//执行本类独有的功能，相当于是对本类的修饰
-            Console.WriteLine("具体装饰对象A的操作");
+            Console.WriteLine("具体装饰对象A的操作：" + addedState);
         }
 
     }
